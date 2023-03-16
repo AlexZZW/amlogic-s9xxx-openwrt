@@ -50,6 +50,6 @@ svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/
 # git apply ../config-openwrt/patches/{0001*,0002*}.patch --directory=feeds/luci
 #
 # ------------------------------- Other ends -------------------------------
-grep CONFIG_USB_LAN78XX -rsn ./target
-grep CONFIG_USB_LAN78XX -rsn ./tmp
+# grep CONFIG_USB_LAN78XX -rsn ./target
+# grep CONFIG_USB_LAN78XX -rsn ./tmp
 
